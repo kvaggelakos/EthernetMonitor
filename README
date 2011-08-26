@@ -2,7 +2,7 @@
 This script can be used with macs running 10.6 or 10.7 to switch on/off wifi when ethernet cable is connected or disconnected.
 More detailed description on http://nerdwa.com/index.php/2011/07/automatically-shut-down-airport-if-ethernet-cable-gets-connected/
 
-[HOWTO]
+[MANUAL INSTALL]
 1. Put EthernetMonitor.sh in /Library/Scripts/nerdwa.com/EthernetMonitor.sh
 2. Put com.nerdwa.ethernetmonitor.plist in /System/Library/LaunchDaemons/
 3. Run 'sudo launchctl load /System/Library/LaunchDaemons/com.nerdwa.ethernetmonitor.plist'
